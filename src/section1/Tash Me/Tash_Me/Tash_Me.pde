@@ -1,5 +1,7 @@
 PImage mustache;PImage face;
-void setup() {face=loadImage("face.jpeg");
+void setup() {
+  
+  face=loadImage("face.jpeg");
 size(400,600);
 face.resize(400,600);
 }
